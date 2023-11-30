@@ -1,0 +1,47 @@
+// sum_product_item start
+.sum_product_item {
+    border: $border;
+    margin-top: -80px;
+
+    .sum_product_item_content {
+        border: $border;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+        padding: 20px;
+    
+        .product_item {
+            border: $border;
+            
+            padding: 20px;
+
+            .product_item_area {
+                border: $border;
+                background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+                .item_title {
+                    border: $border;
+                    width: 60%;
+                    margin-bottom: 20px;
+                    .item_title_text {
+                        border: $border;
+                        font-family: $font_SemiBold;
+                        font-size: 14px;
+                        color: $black;
+                    }
+                }
+                .discription_title {
+                    border: $border;
+                    .discription_text {
+                        border: $border;
+                        font-family: $font_Regular;
+                        font-size: 10px;
+                        color: $light_black
+                    }
+                }
+            }
+        }
+    }
+}
+// sum_product_item end

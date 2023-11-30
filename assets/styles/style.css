@@ -1,0 +1,486 @@
+/* color veriable */
+/* dark_mode_color */
+/* font name */
+/* 400 */
+/* 500 */
+/* 600 */
+/* 700 */
+/* 800 */
+/* border */
+/* responsive_desine_mixin start*/
+/* responsive_desine_mixin end*/
+@font-face {
+  font-family: "bangla-font";
+  src: url("../fonts/bangla_font/TiroBangla-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url("../fonts/Poppins-Thin.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url("../fonts/Poppins-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../fonts/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("../fonts/Poppins-Black.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img,
+iframe,
+a,
+span,
+i {
+  text-decoration: none;
+  display: inline-block;
+}
+
+html {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+  overflow-x: hidden;
+}
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+@media screen and (max-width: 575.9px) {
+  html ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+html ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(185, 185, 185);
+  border-radius: 0px;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #192f59;
+  background: #144f61;
+  border-radius: 0px;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.header_area {
+  border: 0px solid red;
+  background-color: #f6f6f6;
+}
+.header_area .header_area_content {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+.header_area .header_area_content .left_area {
+  border: 0px solid red;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area {
+  border: 0px solid red;
+  display: flex;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .logo_area {
+  border: 0px solid red;
+  margin-right: 60px;
+  align-items: center;
+  display: flex;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .logo_area .logo {
+  border: 0px solid red;
+  width: 130px;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .logo_area .logo img {
+  border: 0px solid red;
+  width: 100%;
+  object-fit: contain;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 15px;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li {
+  border: 0px solid red;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li .nav_text {
+  border: 0px solid red;
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  color: #a3a3a3;
+  transition-duration: 0.4s;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li .nav_text:hover {
+  color: #323232;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li .nav_text .nav_icon {
+  border: 0px solid red;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li .nav_text .nav_icon i {
+  border: 0px solid red;
+  font-size: 14px;
+}
+.header_area .header_area_content .left_area .logo_and_nav-area .nav_area ul li .active {
+  color: #323232;
+}
+.header_area .header_area_content .right_area {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.header_area .header_area_content .right_area ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 15px;
+}
+.header_area .header_area_content .right_area ul li {
+  border: 0px solid red;
+}
+.header_area .header_area_content .right_area ul li .right_content {
+  border: 0px solid red;
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  color: #323232;
+  transition-duration: 0.4s;
+}
+.header_area .header_area_content .right_area ul li .right_content:hover {
+  color: #bc8246;
+}
+.header_area .header_area_content .right_area ul li .right_content i {
+  border: 0px solid red;
+}
+
+.banner_area {
+  border: 0px solid red;
+}
+.banner_area .banner_area_content {
+  border: 0px solid red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px);
+  align-items: center;
+  display: flex;
+}
+.banner_area .banner_area_content .banner_text_area {
+  border: 0px solid red;
+}
+.banner_area .banner_area_content .banner_text_area .banner_title {
+  border: 0px solid red;
+  width: 40%;
+  font-family: "Poppins-SemiBold";
+  font-size: 36px;
+  color: #323232;
+}
+.banner_area .banner_area_content .banner_text_area .banner_title span {
+  border: 0px solid red;
+}
+.banner_area .banner_area_content .banner_text_area .banner_title_description {
+  border: 0px solid red;
+  width: 55%;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  color: #323232;
+  padding: 30px 0px;
+}
+.banner_area .banner_area_content .banner_text_area .banner_button {
+  border: 0px solid red;
+  font-family: "Poppins-SemiBold";
+  font-size: 14px;
+  color: #323232;
+  border: 2px solid #323232;
+  padding: 8px 25px;
+}
+
+.sum_product_item {
+  border: 0px solid red;
+  margin-top: -80px;
+}
+.sum_product_item .sum_product_item_content {
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  padding: 20px;
+}
+.sum_product_item .sum_product_item_content .product_item {
+  border: 0px solid red;
+  padding: 20px;
+}
+.sum_product_item .sum_product_item_content .product_item .product_item_area {
+  border: 0px solid red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sum_product_item .sum_product_item_content .product_item .product_item_area .item_title {
+  border: 0px solid red;
+  width: 60%;
+  margin-bottom: 20px;
+}
+.sum_product_item .sum_product_item_content .product_item .product_item_area .item_title .item_title_text {
+  border: 0px solid red;
+  font-family: "Poppins-SemiBold";
+  font-size: 14px;
+  color: #323232;
+}
+.sum_product_item .sum_product_item_content .product_item .product_item_area .discription_title {
+  border: 0px solid red;
+}
+.sum_product_item .sum_product_item_content .product_item .product_item_area .discription_title .discription_text {
+  border: 0px solid red;
+  font-family: "Poppins-Regular";
+  font-size: 10px;
+  color: #a3a3a3;
+}
+
+.contact_page {
+  border: 0px solid red;
+  overflow-x: hidden;
+}
+.contact_page .contact_page_content {
+  border: 0px solid red;
+}
+.contact_page .contact_page_content .page_title_area {
+  border: 0px solid red;
+}
+.contact_page .contact_page_content .page_title_area .page_title {
+  border: 0px solid red;
+  font-family: "bangla-font";
+}
+.contact_page .contact_page_content .contact_area_left {
+  border: 0px solid red;
+}
+@media screen and (max-width: 575.9px) {
+  .contact_page .contact_page_content .contact_area_left {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .contact_page .contact_page_content .contact_area_left {
+    margin-bottom: 50px;
+  }
+}
+.contact_page .contact_page_content .contact_area_left .content_area {
+  border: 0px solid red;
+  margin-bottom: 35px;
+}
+.contact_page .contact_page_content .contact_area_left .content_area:last-child {
+  margin-bottom: 0px;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title {
+  border: 0px solid red;
+  display: flex;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title .content_area_icon {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+  width: 25px;
+  height: 27px;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title .content_area_icon i {
+  border: 0px solid red;
+  font-size: 15px;
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title .content_area_title {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_area_icon_and_title .content_area_title .text {
+  border: 0px solid red;
+  font-family: "Poppins-SemiBold";
+  font-size: 22px;
+  line-height: 22px;
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text {
+  border: 0px solid red;
+  margin: 15px 0px 15px 25px;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text .text {
+  border: 0px solid red;
+  color: #838383;
+  transition-duration: 0.4s;
+  font-size: 18px;
+  font-family: "Poppins-Regular";
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text .text:hover {
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text .phone_number {
+  display: block;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text .email_text {
+  text-transform: lowercase;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 10px;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul li {
+  border: 0px solid red;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul li a {
+  border: 0px solid red;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #96a2b8;
+  transition-duration: 0.4s;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul li a:hover {
+  background-color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul li a:hover i {
+  color: white;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .content_text ul li a i {
+  border: 0px solid red;
+  color: #144f61;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.contact_page .contact_page_content .contact_area_left .content_area .phone_text {
+  gap: 10px;
+  display: grid;
+}
+.contact_page .contact_page_content .contact_area_right {
+  border: 0px solid red;
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  .contact_page .contact_page_content .contact_area_right {
+    margin-bottom: 50px;
+  }
+}
+.contact_page .contact_page_content .contact_area_right form {
+  border: 0px solid red;
+}
+.contact_page .contact_page_content .contact_area_right form .rirst_name_and_second_name_area {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 575.9px) {
+  .contact_page .contact_page_content .contact_area_right form .rirst_name_and_second_name_area {
+    display: block;
+  }
+}
+.contact_page .contact_page_content .contact_area_right form .form_item label {
+  border: 0px solid red;
+  display: block;
+  font-size: 22px;
+  line-height: 22px;
+  font-family: "Poppins-SemiBold";
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_right form .form_item input {
+  border: 0px solid red;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "Poppins-Medium";
+  color: #144f61;
+  width: 100%;
+  padding: 10px 10px 10px 0px;
+  border-bottom: 1px solid #144f61;
+  margin-bottom: 35px;
+  outline: 0;
+  background-color: transparent;
+}
+.contact_page .contact_page_content .contact_area_right form .form_item textarea {
+  border: 0px solid red;
+  width: 100%;
+  height: 150px;
+  padding: 10px 10px 10px 0px;
+  border-bottom: 1px solid #144f61;
+  margin-bottom: 35px;
+  outline: 0;
+  background-color: transparent;
+}
+.contact_page .contact_page_content .contact_area_right form .submit_button {
+  border: 0px solid red;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+  color: white;
+  background-color: #144f61;
+  padding: 5px 0px;
+  border: 1px solid transparent;
+  transition-duration: 0.4s;
+}
+.contact_page .contact_page_content .contact_area_right form .submit_button:hover {
+  background-color: transparent;
+  border-color: #144f61;
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_right form .submit_button:hover i {
+  color: #144f61;
+}
+.contact_page .contact_page_content .contact_area_right form .submit_button i {
+  border: 0px solid red;
+  font-size: 16px;
+  color: white;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */

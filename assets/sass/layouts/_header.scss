@@ -1,0 +1,107 @@
+// header_area start
+.header_area {
+    border: $border;
+    background-color: $off_white;
+    .header_area_content {
+        border: $border;
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0px;
+
+        // left_area start
+        .left_area {
+            border: $border;
+            .logo_and_nav-area {
+                border: $border;
+                display: flex;
+
+                .logo_area {
+                    border: $border;
+                    margin-right: 60px;
+                    align-items: center;
+                    display: flex;
+                
+                    .logo {
+                        border: $border;
+                        width: 130px;
+
+                        img {
+                            border: $border;
+                            width: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+                // nav_area start
+                .nav_area {
+                    border: $border;
+                    align-items: center;
+                    display: flex;
+                
+                    ul {
+                        border: $border;
+                        display: flex;
+                        gap: 15px;
+
+                        li {
+                            border: $border;
+                            .nav_text {
+                                border: $border;
+                                font-family: $font_Medium;
+                                font-size: 14px;
+                                color: $light_black;
+                                transition-duration: 0.4s;
+                                &:hover {
+                                    color: $black;
+                                }
+                                .nav_icon {
+                                    border: $border;
+
+                                    i {
+                                        border: $border;
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            .active{
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+                // nav_area end
+            }
+        }
+        // left_area end
+
+        // right_area start
+        .right_area {
+            border: $border;
+            align-items: center;
+            display: flex;
+            ul {
+                border: $border;
+                display: flex;
+                gap: 15px;
+                li {
+                    border: $border;
+                    .right_content {
+                        border: $border;
+                        font-family: $font_Medium;
+                        font-size: 14px;
+                        color: $black;
+                        transition-duration: .4s;
+                        &:hover{
+                            color: $brand_color;
+                        }
+                        i {
+                            border: $border;
+                        }
+                    }
+                }
+            }
+        }
+        // right_area end
+    }
+}
+// header_area end

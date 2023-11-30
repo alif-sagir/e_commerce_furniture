@@ -1,0 +1,46 @@
+// banner area start
+.banner_area {
+    border: $border;
+    .banner_area_content {
+        border: $border;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: calc(100vh - 100px);
+        align-items: center;
+        display: flex;
+        .banner_text_area {
+            border: $border;
+           
+
+            .banner_title {
+                border: $border;
+                width: 40%;
+                font-family: $font_SemiBold;
+                font-size: 36px;
+                color: $black;
+                // line-height: 36px;
+                span {
+                    border: $border;
+                }
+            }
+            .banner_title_description {
+                border: $border;
+                width: 55%;
+                font-family: $font_Regular;
+                font-size: 14px;
+                color: $black;
+                padding: 30px 0px;
+            }
+            .banner_button{
+                border: $border;
+                font-family: $font_SemiBold;
+                font-size: 14px;
+                color: $black;
+                border: 2px solid $black;
+                padding: 8px 25px;
+            }
+        }
+    }
+}
+// banner area end
